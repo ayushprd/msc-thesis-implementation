@@ -6,7 +6,7 @@ This document describes how to run the experiments described in the thesis for d
 
 Here's how to install GBMAP as a python package (required for running the experiments).
 ```bash
-cd gbmap_code
+cd gbmao
 pip install -e .
 ```
 
@@ -22,14 +22,14 @@ pip install -r requirements.txt
 
 Run all experiments.
 ```bash
-cd gbmap_code/experiments/thesis
+cd experiments/thesis
 bash run_experiments.sh
 ```
 ## Run specific experiments
 
 cd  into the directory below to run specific experiments.
 ```bash
-cd gbmap_code/experiments/thesis
+cd experiments/thesis
 ```
 
 ### Run Scaling experiment
