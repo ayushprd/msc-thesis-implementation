@@ -1,6 +1,6 @@
 # GBMAP
 
-Gradient Boosting Mapping (GBMAP) is a supervised dimensionality reduction and feature creation method. This document describes instruction how to run the experiments described in the thesis.
+This document describes how to run the experiments described in the thesis for developing and evaluating Gradient Boosting Mapping (GBMAP) which is a supervised dimensionality reduction and feature creation method.
 
 ## Installing
 
@@ -27,17 +27,17 @@ bash run_experiments.sh
 ```
 ## Run specific experiments
 
-Go to and run the experiments listed below.
+cd  into the directory below to run specific experiments.
 ```bash
 cd gbmap_code/experiments/thesis
 ```
 
-### Run Scaling experiment (Table 3)
+### Run Scaling experiment
 ```bash
 python gbmap_scaling.py
 ```
 
-### Run regression and classification experiments (Table 4)
+### Run regression and classification experiments 
 ```bash
 python regression_comparison.py -c reg
 python regression_comparison.py -c knn
@@ -45,7 +45,7 @@ python classification_comparison.py -c cls
 python classification_comparison.py -c knn
 ```
 
-### Run feature creation experiments (Figure 1 and Table 5)
+### Run feature creation experiments 
 ```bash
 python feature_creation.py -c reg
 python feature_creation.py -c cls
