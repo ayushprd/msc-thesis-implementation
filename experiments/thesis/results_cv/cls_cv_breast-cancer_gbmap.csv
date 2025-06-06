@@ -1,0 +1,2 @@
+is_classifier,n_boosts,optim_maxiter,penalty_weight,random_state,softplus_scale,accuracy
+True,116,200,0.00683276759974987,49,18,0.9673417721518988

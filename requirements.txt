@@ -1,0 +1,16 @@
+ivis==2.0.9
+jax==0.4.14
+jaxopt==0.8
+lolP==0.0.4
+matplotlib==3.7.1
+numpy==1.24.3
+pandas==2.0.2
+requests
+sckit-learn
+scipy==1.12.0
+setuptools==67.7.2
+SPCA==1.2.0
+stopit==1.1.2
+tensorflow==2.15.0
+ucimlrepo==0.0.3
+xgboost==2.0.3
